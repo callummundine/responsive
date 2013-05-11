@@ -1,0 +1,467 @@
+#nav-container{
+	height: 100px;
+}
+
+.height-100{
+	height: 100%;
+}
+
+.width-100{
+	width: 100%;
+}
+
+#blue-nav{
+	background: #28b7ed;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+.inline-ul li{
+	display: inline;
+	padding: 0em 1em;
+}
+
+.inline-ul li a{
+	color: white;
+}
+
+#header-menu{
+	color: white;
+	font-size: 1.2em;
+}
+
+#header-logo{
+	height: 50px;
+	padding: 10px 10px;
+}
+
+#site-search{
+	margin: 0px;
+	border: none;
+	border-radius: 20px;
+	padding: 5px 15px;
+}
+
+.wrapper{
+	border: 1px solid #ddd;
+	background: white;
+	margin-top: 0.2em;
+}
+
+.main-heading{
+	font-size: 1.5em;
+	padding: 0.7em;
+	text-align: center;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #ddd;
+}
+
+.pad-05{
+	padding: .5em;
+}
+
+.pad-10{
+	padding: 1em;
+}
+
+#profile-address{
+
+}
+
+#profile-website{
+    color: #28b7ed;
+
+}
+
+#profile-phone a{
+	color: #333;
+}
+
+.profile-details{
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+
+#business-nav{
+
+}
+
+#business-nav li{
+    font-size: 0.8em;
+
+    padding: .6em .5em;
+}
+
+.icon-white{
+	color: white;
+}
+
+#blue-drop-button{
+	float: right;
+	padding: 8px;
+	margin: 0px;
+	position: relative;
+	top: -6px;
+}
+
+#search-text{
+	display: none;
+}
+
+#drop-button{
+	margin: 0px;
+	padding: 9px;
+	position: relative;
+}
+
+.bottom-border{
+	border-bottom: 1px solid #ddd;
+}
+
+#cover-photo{
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+#cover-map{
+	width: 100%;
+	height: 100%;
+	background: black;
+}
+
+#cover-map p{
+	color: white;
+}
+
+#cover-photo-wrapper{
+	height: 210px;
+}
+
+.p-content{
+	font-size: .8em;
+}
+
+.page-heading{
+	padding: 0.7em;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	font-size: 1em;
+}
+
+.footer-list{
+	margin-bottom: 15px;
+}
+
+.footer-list li{
+	color: white;
+	padding: 5px;
+}
+
+.footer-list li a{
+	color: white;
+}
+
+.footer-list li:first-child{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.teacher-profile{
+	display: inline-block;
+	border-bottom: 1px dashed #ddd;
+	padding: 1em;
+}
+
+li.teacher-profile:last-child{
+	border-bottom: none;
+}
+
+#teacher-photo{
+	width: 100px;
+	height: 100px;
+	background: black;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	float: left;
+}
+
+#teacher-content{
+
+}
+
+#teacher-name{
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+
+.taken-li{
+	font-size: 0.8em;
+	display: inline;
+	padding: 0 0.3em;
+}
+
+#teacher-classes{
+	margin-top: 1em;
+}
+
+.no-margin{
+	margin: 0px !important;
+}
+
+.mt-1em{
+	margin-top: 1em !important;
+}
+
+.mt-05em{
+	margin-top: 0.5em !important;
+}
+
+.mb-1em{
+	margin-bottom: 1em !important;
+}
+
+.mb-2em{
+	margin-bottom: 2em !important;
+}
+
+.mb-05em{
+	margin-bottom: 0.5em !important;
+}
+
+.mb-06em{
+	margin-bottom: 0.6em !important;
+}
+
+.mb-07em{
+	margin-bottom: 0.7em !important;
+}
+
+.mb-08em{
+	margin-bottom: 0.8em !important;
+}
+
+.mb-09em{
+	margin-bottom: 0.9em !important;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.font-1em{
+	font-size: 1em;
+}
+
+.font-12em{
+	font-size: 1.2em;
+}
+
+.font-15em{
+	font-size: 1.5em;
+}
+
+.font-2em{
+	font-size: 2em;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+#class-page-name{
+	color: #28b7ed;
+}
+
+#show-map{
+	font-size: 0.8em;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.w-80{
+	width: 80%;
+}
+
+.w-50{
+	width: 50%;
+}
+
+.w-55{
+	width: 55%;
+}
+
+.w-33.3{
+	width: 33.3% !important;
+}
+
+#btn-bsb{
+	width: 50%;
+}
+
+#class-map{
+	width: 100%;
+	height: 200px;
+	background: black;
+	margin-bottom: 1em;
+	display: none;
+}
+
+#profile-photo{
+	width: 96%;
+	margin: 2%;
+	height: 5em;
+	background: black;
+}
+
+#class-select{
+	width: 50%;
+}
+
+#schedule-list{
+	text-align: center;
+		padding: 10px 0;
+	border-top: 1px dashed #ddd;
+	border-bottom: 1px dashed #ddd;
+}
+
+#schedule-list li{
+	display: inline;
+	padding: 0px 1.2em;
+	font-size: 0.9em;
+}
+
+#schedule-list li a{
+	color: #333;
+
+}
+
+#day-active a{
+	color: #28b7ed !important;
+	text-decoration: underline;
+}
+
+#earlier{
+	float: left;
+}
+
+#earlier a{
+	width: 5em;
+}
+
+#later{
+	float: right;
+}
+
+#later a{
+	width: 5em;
+}
+
+.mobile-day{
+	text-align: center;
+	padding: 0.6em;
+	background: #eee;
+}
+
+.mobile-class{
+	padding: 0.5em;
+	border-bottom: 1px dashed #ddd;
+}
+
+/*.mobile-class:last-child{
+	border-bottom: none !important;
+}*/
+
+#m-class-name{
+	color: #28b7ed;
+	font-size: 1.2em;
+}
+
+
+.black{
+	color: #333;
+}
+
+.mobile-class-link{
+	color: black !important;
+	text-decoration: none !important;
+}
+
+#top-ul{
+	margin: 25px 10px;
+}
+
+#top-ul li{
+	display: inline;
+	margin: 0px 10px;
+}
+
+.schedule-button{
+	padding: 0px !important;
+	padding-top: 7px !important;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.w-48{
+	width: 48%;
+}
+
+.w-15{
+	width: 15%;
+}
+
+.following{
+	color: red !important;
+}
+
+.link{
+	font-size: 0.8em;
+}
+
+.align-left{
+	text-align: left;
+}
+
+.table-cell{
+	display: table-cell;
+
+}
+
+#mobile-map{
+width: 67px;
+height: 67px;
+background: black;
+border-radius: 35px;
+-webkit-border-radius: 35px;
+border:2px solid #28b7ed;
+}
+
+.inline-block{
+	display: inline-block;
+}
+
+#registration_form{
+	padding: 5% 25% !important
+}
+
+#login_form{
+	padding: 5% 25% !important
+}
+
+.p-1em{
+	padding: 1em;
+}
+
+.w-92{
+	width: 92%;
+}
