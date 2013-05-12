@@ -1,7 +1,7 @@
   <?php include('header.php'); ?>
   <div class="container">
     <div class="row-fluid">
-      <?php include('business_sidebar.php') ?>
+      <?php include('user_sidebar.php') ?>
 
       <script>
         $('#drop-button').click(function() {
@@ -9,22 +9,12 @@
         });
       </script>
 
-     <?php include('business_about.php') ?>
 
 
     </div>
   </div>
 
-
-
-
     <?php include('footer.php'); ?>
-
-
-
-    
-
-
 
   </body>
 </html>

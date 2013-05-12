@@ -52,6 +52,12 @@ ul{
 	margin-top: 0.2em;
 }
 
+.accordian-wrapper{
+		background: white;
+	margin-top: 0.2em;
+	text-align: center;
+}
+
 .main-heading{
 	font-size: 1.5em;
 	padding: 0.7em;
@@ -93,8 +99,16 @@ ul{
 
 #business-nav li{
     font-size: 0.8em;
-
     padding: .6em .5em;
+    cursor: pointer;
+}
+
+#business-nav li:hover{
+background: rgba(40, 183, 237, 0.18)
+}
+
+.active-li{
+background: rgba(40, 183, 237, 0.18)
 }
 
 .icon-white{
@@ -412,6 +426,27 @@ li.teacher-profile:last-child{
 	text-align: right;
 }
 
+
+.w-10{
+	width: 10%;
+}
+
+.w-25{
+	width: 25%;
+}
+
+.w-30{
+	width: 30%;
+}
+
+.w-35{
+	width: 35%;
+}
+
+.w-47{
+	width: 47%;
+}
+
 .w-48{
 	width: 48%;
 }
@@ -455,7 +490,7 @@ border:2px solid #28b7ed;
 }
 
 #login_form{
-	padding: 5% 25% !important
+	padding: 13% 25% !important;
 }
 
 .p-1em{
@@ -464,4 +499,224 @@ border:2px solid #28b7ed;
 
 .w-92{
 	width: 92%;
+}
+
+#facebook-login{
+	background: #3b5998;
+	color: white;
+	text-shadow: none;
+	padding: 1em;
+	border: none;
+}
+
+.f-08em{
+	font-size: 0.8em;
+}
+
+#terms-cond{
+	margin-bottom: 1em;
+	width: 110%;
+}
+
+#my-tickets-ul li{
+	border-bottom: 1px dashed #ddd;
+	padding: 10px;
+}
+
+#my-tickets-ul li:last-child{
+	border-bottom: none;
+}
+
+#my_account_settings{
+	margin: 2% 10%;
+}
+
+#business-courses-ul li{
+	padding: 1em;
+	border-bottom: 1px dashed #ddd;
+}
+
+#business-courses-ul li:last-child{
+	border-bottom: none;
+}
+
+#course-title{
+	color: orange;
+	font-weight: bold;
+}
+
+.normal{
+	font-weight: normal;
+}
+
+#studios-following-ul li{
+	padding: 1em;
+	border-bottom: 1px dashed #ddd;
+}
+
+
+#studios-following-ul li:last-child{
+	border-bottom: none;
+}
+
+#studio-name{
+	color: #28b7ed;
+	font-size: 1em;
+}
+
+.red{
+	color: red;
+}
+
+.side-link{
+	color: black !important;
+}
+
+.side-link:hover{
+	text-decoration: none !important;
+}
+
+.side-bar-icon{
+	margin: 4px 0px !important;
+}
+
+.side-list-ul li{
+	padding: 3px;
+}
+
+.side-list-ul{
+	text-align: left !important;
+}
+
+#big-map{
+	width: 98%;
+height: 250px;
+background: white;
+margin: 0 auto;
+padding: 1%
+}
+
+#search-results-studios{
+	border-bottom: 1px solid #ddd;
+}
+
+#search-results-studios li{
+	padding: 2%;
+	display: inline-block;
+	width: 96%;	
+	border-bottom: 1px dashed #ddd;
+}
+
+#search-results-studios li:last-child{
+	border-bottom: none !important;
+}
+
+#studios-content{
+
+}
+
+#studios-image{
+	width: 100px;
+height: 100px;
+background: black;
+float: left;
+margin-right: 2%;
+}
+
+.link-1em{
+	font-size: 1em !important;
+}
+
+.results-articles{
+
+}
+
+.results-articles li{
+	padding: 1%;	
+	display: inline-block;
+	width: 98%;
+	border-bottom: 1px dashed #ddd;
+}
+
+.results-articles li:last-child{
+	border: none;
+}
+
+#article-photo{
+	width: 20%;
+	height: 150px;
+	background: black;
+	float: left;
+	margin-right: 1%;
+}
+
+#article-content{
+	float: left;
+	width: 78%;
+}
+
+#results-articles{
+	display: inline-block;
+	width: 100%;
+	float: left;
+}
+
+#article-title{
+	font-weight: bold;
+}
+
+#scc-tab{
+	border-bottom: none !important;
+}
+
+#search-results-classes li{
+	padding: 2%;
+	display: inline-block;
+	width: 96%;	
+	border-bottom: 1px dashed #ddd;
+}
+
+#search-results-courses li{
+	padding: 2%;
+	display: inline-block;
+	width: 96%;	
+	border-bottom: 1px dashed #ddd;
+}
+
+#class-name{
+	color: #28b7ed;
+	font-size: 1em;
+}
+
+.ml-1em{
+	margin-left: 1em !important;
+}
+
+#book-now-button{
+	background: #28b7ed;
+	border:	1px solid #28b7ed;
+	color: white;
+	font-weight: lighter;
+	text-shadow:none;
+}
+
+.white{
+	color: white !important;
+}
+
+#listing-table{
+width: 100%;
+}
+
+#listing-table thead tr th{
+	font-size: 0.8em;
+	padding: 0.5% 0.5%;
+}
+
+#listing-table tbody tr{
+	background: rgba(40, 183, 237, 0.18);
+}
+
+#listing-table tbody tr td{
+	font-size: 0.8em;
 }

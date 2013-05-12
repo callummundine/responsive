@@ -1,9 +1,4 @@
-  <?php include('header.php'); ?>
-  <div class="container">
-    <div class="row-fluid">
-
-
-    <div class="span6">
+<div class="span6">
   <div class="wrapper">
   	<p class="main-heading">Login</p>
     <form class="form-horizontal" id="login_form">
@@ -101,12 +96,3 @@
     <button class="btn btn-primary btn-block">Resend Password</button>
   </div>
 </div>
-
-
-    </div>
-  </div>
-
-    <?php include('footer.php'); ?>
-
-  </body>
-</html>

@@ -414,6 +414,22 @@
     #m-b-header{
     display: none;
     }
+      #add-studio-button{
+    display: none !important;
+  }
+        #studios-image{
+    display: none;
+  }
+  #article-photo{
+    display: none;
+  }
+  #article-content{
+    width: 94% !important;
+  }
+  .results-articles li{
+    padding: 3% !important;
+  }
+
 
 
 }
@@ -428,6 +444,7 @@
     #m-b-header{
     display: none;
     }
+
 
     
 }
@@ -501,6 +518,8 @@
   }
 
 
+
+
 }
 
 
@@ -537,6 +556,7 @@
 
 
 
+
 }
 
  
@@ -566,6 +586,10 @@
   .row-fluid{
     margin-top: 10px !important;
   }
-  
+  #my_account_settings{
+  margin: 2% 30% !important;
+  }
+
+
   
 }

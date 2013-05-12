@@ -22,16 +22,18 @@
 	      <thead>
 	        <tr>
 	          <th>Class</th>
+	          <th>Studio</th>
 	          <th>Time</th>
 	          <th>Price</th>
 	        </tr>
 	      </thead>
 	      <tbody>
 	        <tr>
-	          <td class="w-48">Bikram Yoga</td>
+	          <td class="w-25">Bikram Yoga</td>
+	          <td class="w-25">Geelong Yoga Studio</td>
 	          <td class="w-15">7:30PM</td>
-	          <td class="w-15">$15</td>
-	          <td class="schedule-button align-right">
+	          <td class="w-10">$15</td>
+	          <td class="schedule-button align-right w-25">
 	          	<a href="#" rel="tooltip" title="Follow Studio" data-placement="top" class="follow-studio"><button type="button" class="btn"><i class="icon-heart-empty"></i></button></a>
 	          	<a href="#" rel="tooltip" title="Add To Schedule" data-placement="top" class="bookmark-class"><button type="button" class="btn"><i class="icon-calendar"></i></button></a>
 	          	<button type="button" class="btn">Book</button>

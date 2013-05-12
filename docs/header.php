@@ -25,6 +25,7 @@
       <script src="assets/js/html5shiv.js"></script>
     <![endif]-->
 
+
     <!-- Le fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
@@ -39,6 +40,12 @@
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 
+      <script>
+    $('#blue-drop-button').click(function() {
+      $('.menu-li').toggle()
+    });
+  </script>
+
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -52,6 +59,7 @@
           <ul class="pull-right" id="top-ul">
             <li>Logout</li>
             <li>My Account</li>
+            <li id="add-studio-button"><button type="button" class="btn btn-primary">Add A Studio</button></li>
           </ul>
         </div>
       </div>
@@ -62,16 +70,11 @@
               <input type="search" placeholder="Search" id="site-search"><i class="icon-align-justify icon-15x pull-right icon-white" id="blue-drop-button"></i>
             </li>            
             <li class="menu-li"><a href="#">Home</a></li>
-            <li class="menu-li"><a href="#">Studios</a></li>
-            <li class="menu-li"><a href="#">Classes</a></li>
-            <li class="menu-li"><a href="#">Locations</a></li>
+            <li class="menu-li"><a href="#">Stretch</a></li>
+            <li class="menu-li"><a href="#">Dance</a></li>
+            <li class="menu-li"><a href="#">Train</a></li>
             <li class="menu-li"><a href="#">Blog</a></li>
           </ul>
         </div>
       </div>
     </div>
-  <script>
-    $('#blue-drop-button').click(function() {
-      $('.menu-li').toggle()
-    });
-  </script>
