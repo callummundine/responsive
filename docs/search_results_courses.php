@@ -26,9 +26,13 @@
       <div class="wrapper no-margin">
         <ul id="search-results-courses">
           <li>
-            <p id="class-name"><a href="#">Beginners Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Beginners Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
+            <p>Wednesday's, Friday's: 5:30PM - 6:30PM</p>
+            <p class="mb-1em">Starting on 25th May 2013 and running for 10 weeks.</p>
+            <p><a href="#" id="show-details-course">Show Details</a></p>
+            <p id="details-course">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           </li>
         </ul>
         <p class="p-1em align-center"><a href="#" class="align-center">See More....</a></p>
@@ -70,3 +74,10 @@
 
   </body>
 </html>
+
+<script>
+ 
+$("#show-details-course").click(function () {
+$("#details-course").toggle();
+});
+</script>

@@ -27,7 +27,7 @@
       <div class="wrapper no-margin">
         <ul id="search-results-classes">
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -57,7 +57,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -87,7 +87,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -117,7 +117,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -147,7 +147,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -177,7 +177,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -207,7 +207,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -237,7 +237,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -267,7 +267,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">
@@ -297,7 +297,7 @@
             </table>
           </li>
           <li>
-            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i> Add To Schedule</button></p>
+            <p id="class-name"><a href="#">Bikram Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button><button type="button" class="btn ml-1em pull-right"><i class="icon-calendar black"></i></button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <table id="listing-table">

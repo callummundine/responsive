@@ -17,14 +17,14 @@
             <li>
                 <p id="studio-name">Geelong Yoga Center</p>
                 <p class="mb-1em">125, High St, Geelong, 3215</p>
-                <button type="button" class="btn"><i class="icon-calendar icon-15x"></i> View Timetable</button>  
-                <button type="button" class="btn"><i class="icon-heart red icon-15x"></i> Unfollow</button>  
+                <button type="button" class="btn"><i class="icon-calendar icon-1x"></i> View Timetable</button>  
+                <button type="button" class="btn"><i class="icon-heart red icon-1x"></i> Unfollow</button>  
             </li>
             <li>
                 <p id="studio-name">Geelong Yoga Center</p>
                 <p class="mb-1em">125, High St, Geelong, 3215</p>
-                <button type="button" class="btn"><i class="icon-calendar icon-15x"></i> View Timetable</button>  
-                <button type="button" class="btn"><i class="icon-heart red icon-15x"></i> Unfollow</button>  
+                <button type="button" class="btn"><i class="icon-calendar icon-1x"></i> View Timetable</button>  
+                <button type="button" class="btn"><i class="icon-heart red icon-1x"></i> Unfollow</button>  
             </li>
           </ul>
         </div>
