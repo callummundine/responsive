@@ -1,6 +1,7 @@
 <div class="span3">        
   <div class="wrapper">
-    <img id="profile-photo" src="http://klassable.silicondevelopment.info/images/1421848116Screen%20Shot%202013-03-22%20at%2012.02.14%20PM.png">
+    <img id="profile-photo" src="http://klassable.silicondevelopment.info/img/99437179250012246a32d11e291a022000a9f13ef_7.jpg">
+    <p class="name">Callum Mundine</p>
     <ul id="business-nav">
       <li id="drop-button"><a href="user_my_schedule.php" class="side-link"><i class="icon-calendar icon-15x"></i> My Schedule<i class="icon-align-justify icon-15x pull-right" id="drop-button-icon"></i></a></li>
       <div id="business-selection">

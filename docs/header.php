@@ -41,10 +41,10 @@
     <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 
       <script>
-    $('#blue-drop-button').click(function() {
-      $('.menu-li').toggle()
-    });
-  </script>
+        $('#blue-drop-button').click(function() {
+          $('.menu-li').toggle()
+        });
+      </script>
 
   </head>
 
@@ -56,11 +56,19 @@
       <div class="navbar-inner">
         <div class="container height-100" id="header-top">
           <img src="assets/img/logo.png" id="header-logo" class="pull-left">
-          <ul class="pull-right" id="top-ul">
-            <li>Logout</li>
-            <li>My Account</li>
-            <li id="add-studio-button"><button type="button" class="btn btn-primary">Add A Studio</button></li>
-          </ul>
+          <div class="pull-right" id="top-buttons">
+            <div class="btn-group">
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                My Account
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>Callum</li>
+                <li>Logout</li>
+              </ul>
+            </div>
+            <button type="button" class="btn btn-primary" id="add-studio-button">Add A Studio</button>
+          </div>
         </div>
       </div>
       <div id="blue-nav">
@@ -70,9 +78,9 @@
               <input type="search" placeholder="Search" id="site-search"><i class="icon-align-justify icon-15x pull-right icon-white" id="blue-drop-button"></i>
             </li>            
             <li class="menu-li"><a href="#">Home</a></li>
-            <li class="menu-li"><a href="#">Stretch</a></li>
-            <li class="menu-li"><a href="#">Dance</a></li>
-            <li class="menu-li"><a href="#">Train</a></li>
+            <li class="menu-li"><a href="#">Stretch</a></li> <!-- This will link to search results with studios that do Stretch (yoga) -->
+            <li class="menu-li"><a href="#">Dance</a></li>  <!-- This will link to search results with studios that do Dance -->
+            <li class="menu-li"><a href="#">Train</a></li>  <!-- This will link to search results with studios that do Train (personal training) -->
             <li class="menu-li"><a href="#">Blog</a></li>
           </ul>
         </div>

@@ -1,6 +1,5 @@
   <?php include('header.php'); ?>
   <div class="container">
-    <br>
     <div id="big-map" class="wrapper">
       <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/?ie=UTF8&amp;ll=-36.605471,145.469483&amp;spn=5.237815,11.623535&amp;t=m&amp;z=7&amp;output=embed"></iframe>
     </div>
@@ -18,9 +17,9 @@
     <div class="span9">
 
     <ul class="nav nav-tabs no-margin" id="scc-tab">
-        <li class="active"><a href="search_results_studios.php">Studios</a></li>
-        <li><a href="search_results_classes.php">Classes</a></li>
-        <li><a href="search_results_courses.php">Courses</a></li>
+        <li class="active tab-width"><a href="search_results_studios.php">Studios</a></li>
+        <li class="tab-width"><a href="search_results_classes.php">Classes</a></li>
+        <li class="tab-width"><a href="search_results_courses.php">Courses</a></li>
       </ul>
 
       <div class="wrapper no-margin">

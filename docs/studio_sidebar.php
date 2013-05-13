@@ -1,9 +1,11 @@
 <div class="span3">        
         <div class="wrapper">
-          <img id="profile-photo" src="http://klassable.silicondevelopment.info/images/1421848116Screen%20Shot%202013-03-22%20at%2012.02.14%20PM.png">
+          <img id="profile-photo" src="http://www.geelongsgym.com.au/images/gg-logo.png">
+          <p class="name">Geelong's Gym</p>
           <ul id="business-nav">
             <li id="drop-button">
-              <a href="studio_timetable.php" class="side-link"><i class="icon-calendar icon-15x"></i> Timetable <i class="icon-align-justify icon-15x pull-right" id="drop-button-icon"></i></a>
+              <a href="studio_timetable.php" class="side-link"><i class="icon-calendar icon-15x"></i> Timetable</a>
+              <i class="icon-align-justify icon-15x pull-right" id="drop-button-icon"></i>
             </li>
             <div id="business-selection">
               <a href="studio_courses.php" class="side-link"><li><i class="icon-reorder icon-15x"></i> Courses</li></a>

@@ -54,7 +54,6 @@ ul{
 
 .accordian-wrapper{
 		background: white;
-	margin-top: 0.2em;
 	text-align: center;
 }
 
@@ -316,6 +315,22 @@ li.teacher-profile:last-child{
 	width: 33.3% !important;
 }
 
+.w-10{
+	width: 10% !important;
+}
+
+.w-30{
+	width: 30% !important;
+}
+
+.w-40{
+	width: 40% !important;
+}
+
+.w-20{
+	width: 20% !important;
+}
+
 #btn-bsb{
 	width: 50%;
 }
@@ -331,7 +346,6 @@ li.teacher-profile:last-child{
 #profile-photo{
 	width: 96%;
 	margin: 2%;
-	height: 5em;
 	background: black;
 }
 
@@ -414,7 +428,7 @@ li.teacher-profile:last-child{
 
 #top-ul li{
 	display: inline;
-	margin: 0px 10px;
+	margin: 0px 6px;
 }
 
 .schedule-button{
@@ -449,6 +463,10 @@ li.teacher-profile:last-child{
 
 .w-48{
 	width: 48%;
+}
+
+.w-70{
+	width: 70%;
 }
 
 .w-15{
@@ -486,11 +504,11 @@ border:2px solid #28b7ed;
 }
 
 #registration_form{
-	padding: 5% 25% !important
+	padding: 5% 25% !important;
 }
 
 #login_form{
-	padding: 13% 25% !important;
+	padding: 9% 25% !important;
 }
 
 .p-1em{
@@ -542,7 +560,7 @@ border:2px solid #28b7ed;
 
 #course-title{
 	color: orange;
-	font-weight: bold;
+	font-size: 1em;
 }
 
 .normal{
@@ -602,7 +620,8 @@ border:2px solid #28b7ed;
 height: 250px;
 background: white;
 margin: 0 auto;
-padding: 1%
+padding: 1%;
+margin-top:1em;
 }
 
 #search-results-studios{
@@ -643,7 +662,7 @@ margin-right: 2%;
 .results-articles li{
 	padding: 1%;	
 	display: inline-block;
-	width: 98%;
+	width: 94%;
 	border-bottom: 1px dashed #ddd;
 }
 
@@ -715,6 +734,7 @@ margin-right: 2%;
 
 #listing-table{
 width: 100%;
+margin-bottom: 0.5em;
 }
 
 #listing-table thead tr th{
@@ -732,6 +752,7 @@ width: 100%;
 
 #details-course{
 	margin-top: 1em;
+	display: none;
 }
 
 #course-start{
@@ -744,4 +765,325 @@ width: 100%;
 	color: black;
 	font-weight: normal;
 	float: right;
+}
+
+#suburbs-rest{
+	display: none;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+#class-table{
+	width: 100%;
+	text-align: left;
+}
+
+#class-table-button{
+	padding: 0em 0em 1em 0em;
+	text-align: right;
+}
+
+#side-main-heading{
+	text-align: center;
+font-size: 1em;
+padding: 0.5em;
+background: white;
+border: 1px solid #ddd;
+}
+
+#filter-wrapper{
+	border-bottom: none;
+}
+
+#mobile-class-results{
+	display: none;
+}
+
+  #filter-button{
+    display: none;
+  }
+
+#filter-mobile-expand{
+	color: black;
+	display: none;
+}
+
+#filter-mobile-expand:hover{
+	text-decoration: none;
+}
+
+.span3{
+	margin-bottom: 0.3em !important;
+}
+
+#studio-photo{
+	width: 100px;
+	height: 100px;
+	background: black;
+}
+
+.w-17{
+	width: 17%;
+}
+
+#top-ul a{
+	color: black;
+}
+
+.name{
+	border-bottom: 1px solid #ddd;
+border-top: 1px solid #ddd;
+padding: 0.6em;
+text-align: center;
+}
+
+.w-96{
+	width: 96%;
+}
+
+.dropdown-menu li{
+	padding: 10px;
+}
+
+.dropdown-menu li:hover{
+	background: rgba(40, 183, 237, 0.18);
+}
+
+.dropdown-menu{
+	padding-bottom: 0px !important;
+}
+
+#top-buttons{
+	margin: 21px 0px;
+}
+
+.dropdown-menu{
+	left: -22% !important;
+	min-width: 130px !important;
+}
+
+#blue-nav-res{
+	background: #28b7ed;
+	height: 50px;
+	border-bottom: none;
+}
+
+.h-100{
+	height: 100%;
+}
+
+.b-blue{
+	background: #28b7ed !important;
+}
+
+.c-blue{
+	color: #28b7ed !important;
+}
+
+#m-drop-button{
+	border: none !important;
+	background: #28b7ed !important;
+}
+
+#blue-ul{
+	background: #28b7ed !important;
+	padding: 10px;
+}
+
+#blue-ul li{
+	display: inline;
+	color: white;
+}
+
+.white{
+	color: white !important;
+}
+
+.no-shadow-t{
+	text-shadow: none;
+}
+
+#class-about-toggle{
+	display: none;
+}
+
+
+.ml-1em{
+	margin-left: 1em;
+}
+
+.mr-05em{
+	margin-right: 0.5em;
+}
+
+.schedule-cycle{
+	background: rgb(248, 248, 248);
+	padding: 1em;
+}
+
+#schedule-cycle-title{
+	margin-bottom: 1em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.side-sub-active{
+	width: 5px;height: 35px;background:black;float: left;margin-right: 10px;
+}
+
+#templates-li{
+	display: block;
+}
+
+.templates li{
+	padding: 1em;
+	border-bottom: 1px dashed #ddd;
+}
+
+.templates li:last-child{
+	border-bottom: none;
+}
+
+#teacher-location{
+	display: inline;
+}
+
+#teacher-location-left{
+	width: 50%;
+	float: left;
+}
+
+.template-sub-heading{
+	text-align: center;
+	background: #5bc0de;
+	color: white;
+	padding: 0.5em;
+	font-size: 1.1em;
+}
+
+#courses-ul{
+
+}
+
+#courses-ul li{
+	border-bottom: 1px dashed #ddd;
+	padding: 1em;
+}
+
+#courses-ul li:last-child{
+	border-bottom: none;
+}
+
+.course-name{
+	color: orange;
+	font-size: 1em;
+}
+
+#class-attendees li{
+	padding: 2px;
+}
+
+#class-attendees{
+	margin-left: 30px;
+}
+
+#class-attendees-td{
+	display: none;
+	padding: 0px !important;
+}
+
+#locations-ul{
+
+}
+
+#locations-ul li{
+	padding: 1em;
+	border-bottom: 1px dashed #ddd;
+}
+
+#locations-ul li:last-child{
+	border-bottom: none;
+}
+
+#location-name{
+
+}
+
+#google-map-location{
+	width: 100%;
+	height:200px;
+	background: black;
+}
+
+#holidays-ul{
+
+}
+
+#holidays-ul li{
+	font-size: 1em;
+	padding: 1em;
+		border-bottom: 1px dashed #ddd;
+}
+
+#holidays-ul li:last-child{
+		border-bottom: none;
+}
+
+#holiday-saved-ul li{
+	font-size: 0.8em;
+	margin-left: 2em;
+	padding: 0px;
+		border-bottom: none;
+}
+
+
+.canceled-class{
+	color: #d84a38;
+}
+
+.booking-fin td{
+	color: green;
+}
+
+.withdraw-fin td{
+	color: red;
+}
+
+.courses-bookings-table{
+	border-bottom: 1px dashed #ddd;
+}
+
+#courses-bookings-table-div{
+	display: none;
+}
+
+.acccount-s-head{
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+
+#cover-photo-admin{
+	width: 100%;
+	height: 210px;
+	background: black;
+}
+
+#profile-photo-admin{
+	width: 210px;
+	height: 210px;
+	background: black;
+}
+
+.mr-1em{
+	margin-right: 1em !important;
+}
+
+.ml-1em{
+	margin-left: 1em !important;
+}
+
+.w-100px{
+	width: 100px;
 }

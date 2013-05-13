@@ -24,11 +24,11 @@
         <option>Thursday, 9 May, 5:30PM</option>
       </select>
       <br>
-        <div class="btn-group" id="btn-bsb">
-          <button class="btn btn-large btn-block btn-primary mb-05em">Book</button>      
-      <a href="#" rel="tooltip" title="Share This Class" data-placement="top" class="share-button"><button class="btn btn-large" id="share"><i class="icon-share"></i></button></a>
-      <button class="btn btn-large" id="bookmark"><i class="icon-calendar"></i></button>
-      <button class="btn btn-large" id="share"><i class="icon-pencil"></i></button>
+    <div class="btn-group" id="btn-bsb">
+      <button class="btn btn-large btn-block btn-primary mb-05em">Book</button>      
+      <button class="btn btn-large share-button" id="share" rel="tooltip" title="Share This Class" data-placement="top"><i class="icon-share"></i></button>
+      <button class="btn btn-large add-to-calendar" id="add-to-calendar" rel="tooltip" title="Add To Calendar" data-placement="top"><i class="icon-calendar"></i></button>
+      <button class="btn btn-large review-this-class" id="share" rel="tooltip" title="Write A Review" data-placement="top"><i class="icon-pencil"></i></button>
     </div>
     <br><br>
       <p class="bold">Time</p>
@@ -61,6 +61,8 @@ $("#class-map").toggle();
   <script type="text/javascript">
     $(document).ready(function () {
       $('.share-button').tooltip();
+      $('.add-to-calendar').tooltip();
+      $('.review-this-class').tooltip();
     });
   </script>
 

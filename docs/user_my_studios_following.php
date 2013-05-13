@@ -15,16 +15,30 @@
         <div>
           <ul id="studios-following-ul">
             <li>
-                <p id="studio-name">Geelong Yoga Center</p>
-                <p class="mb-1em">125, High St, Geelong, 3215</p>
-                <button type="button" class="btn"><i class="icon-calendar icon-1x"></i> View Timetable</button>  
-                <button type="button" class="btn"><i class="icon-heart red icon-1x"></i> Unfollow</button>  
+                <table class="w-100">
+                  <th class="w-17">
+                    <div id="studio-photo"></div>
+                  </th>
+                  <th>
+                    <p id="studio-name" class="normal">Geelong Yoga Center</p>
+                    <p class="mb-1em">125, High St, Geelong, 3215</p>
+                    <a href="studio_timetable.php"><button type="button" class="btn"><i class="icon-calendar icon-1x"></i> View Timetable</button></a>
+                    <button type="button" class="btn"><i class="icon-heart red icon-1x"></i> Unfollow</button>  
+                  </th>
+                </table>
             </li>
             <li>
-                <p id="studio-name">Geelong Yoga Center</p>
-                <p class="mb-1em">125, High St, Geelong, 3215</p>
-                <button type="button" class="btn"><i class="icon-calendar icon-1x"></i> View Timetable</button>  
-                <button type="button" class="btn"><i class="icon-heart red icon-1x"></i> Unfollow</button>  
+                <table class="w-100">
+                  <th class="w-17">
+                    <div id="studio-photo"></div>
+                  </th>
+                  <th>
+                    <p id="studio-name" class="normal">Geelong Yoga Center</p>
+                    <p class="mb-1em">125, High St, Geelong, 3215</p>
+                    <a href="studio_timetable.php"><button type="button" class="btn"><i class="icon-calendar icon-1x"></i> View Timetable</button></a>
+                    <button type="button" class="btn"><i class="icon-heart red icon-1x"></i> Unfollow</button>  
+                  </th>
+                </table>
             </li>
           </ul>
         </div>

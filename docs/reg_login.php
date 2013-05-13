@@ -12,12 +12,12 @@
 	      <button type="submit" class="btn btn-block" id="facebook-login"><i class="icon-facebook pull-left icon-15x"></i> Login With Facebook</button>
 	    </div>
 	  </div>
-	  <div class="control-group mb-10px">
+	  <div class="control-group mb-05em">
 	    <div class="controls no-margin">
 	      <input type="text" id="user" name="user" placeholder="Email" class="w-92">
 	    </div>
 	  </div>
-	  <div class="control-group mb-10px">
+	  <div class="control-group mb-05em">
 	    <div class="controls no-margin">
 	      <input type="password" id="" placeholder="Password" id="password" name="password" class="w-92">
 	    </div>
@@ -42,27 +42,27 @@
   <div class="wrapper">
   	<p class="main-heading">Register</p>
     <form class="form-horizontal" id="registration_form">
-	  <div class="control-group mb-10px">
+	  <div class="control-group mb-05em">
 	    <div class="controls no-margin">
 	      <input type="text" id="firstname" name="firstname" placeholder="First Name" class="w-92">
 	    </div>
 	  </div>
-	  <div class="control-group mb-10px">
+	  <div class="control-group mb-05em">
 	    <div class="controls no-margin">
 	      <input type="text" id="lastname" name="lastname" placeholder="Surname" class="w-92">
 	    </div>
 	  </div>
-	  <div class="control-group mb-10px">
+	  <div class="control-group mb-05em">
 	    <div class="controls no-margin">
 	      <input type="text" id="register_email"  name="register_email" placeholder="Email" class="w-92">
 	    </div>
 	  </div>
-	  <div class="control-group mb-10px">
+	  <div class="control-group mb-05em">
 	    <div class="controls no-margin">
 	      <input type="text" id="register_password" name="register_password" placeholder="Password" class="w-92">
 	    </div>
 	  </div>
-	  <div class="control-group mb-10px">
+	  <div class="control-group mb-05em">
 	    <div class="controls no-margin">
 	      <input type="text" id="confirm_password"  name="confirm_password" placeholder="Repeat Password" class="w-92">
 	      <input type="hidden" name="studentOrModerator" value="0">
@@ -76,7 +76,7 @@
 	      <button type="submit" class="btn btn-block">Register</button>
 	    </div>
 	  </div>
-	  <p><a href="#">Click here</a> to register a businesss.</p>
+	  <p><a href="#">Click here</a> to register a studio.</p>
 	</form>
   </div>
 </div>

@@ -1,5 +1,5 @@
-<div class="span3">      
-  <a id="filter-mobile-expand"><p id="side-main-heading">Filter<i class="icon-plus pull-right side-bar-icon"></i></p></a>
+<div class="span3">     
+  <a id="filter-mobile-expand"><p id="side-main-heading">Filter<i class="icon-plus pull-right side-bar-icon"></i></p></a>  
   <div class="accordian-wrapper">
     <div class="accordion" id="accordion2">
       <div class="accordion-group">
@@ -12,11 +12,21 @@
           <div class="accordion-inner">
             <ul class="side-list-ul">
               <li><input type="checkbox" class="no-margin"> Select All</li>
-              <li><input type="checkbox" class="no-margin"> North Melbourne</li>
-              <li><input type="checkbox" class="no-margin"> South Melbourne</li>
-              <li><input type="checkbox" class="no-margin"> East Melbourne</li>
-              <li><input type="checkbox" class="no-margin"> West Melbourne</li>
-              <li><a href="#">Show More</a></li>
+              <div id="suburbs-top-5">
+                <li><input type="checkbox" class="no-margin"> North Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> South Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> East Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> West Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> West Melbourne</li>
+              </div>
+              <div id="suburbs-rest">
+                <li><input type="checkbox" class="no-margin"> North Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> South Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> East Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> West Melbourne</li>
+                <li><input type="checkbox" class="no-margin"> West Melbourne</li>
+              </div>
+              <li><a id="show-more-suburb">Show More</a></li>
             </ul>
           </div>
         </div>
@@ -69,6 +79,11 @@
   </div>
 </div>
 
+<script>
+$("#show-more-suburb").click(function () {
+$("#suburbs-rest").toggle();
+});
+</script>
 <script>
   $("#filter-mobile-expand").click(function () {
   $(".accordian-wrapper").toggle();

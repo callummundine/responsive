@@ -57,7 +57,7 @@
                   <td class="w-10">$15</td>
                   <td class="schedule-button align-right w-25">
                     <a href="#" rel="tooltip" title="Download Pass" data-placement="top" class="download-pass"><button type="button" class="btn"><i class="icon-arrow-down"></i></button></a>
-                    <button type="button" class="btn btn-success" disabled>Booked</button>
+                    <button type="button" class="btn btn-success disabled">Booked</button>
                   </td>
                 </tr>
               </tbody>
