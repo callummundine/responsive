@@ -55,6 +55,7 @@
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Booking Type</th>
+                        <th>Booking #</th>
                         <th></th>
                       </tr>
                     </thead>
@@ -64,6 +65,7 @@
                         <td>Mark</td>
                         <td>Otto</td>
                         <td>Student: $15</td>
+                        <td>#54637</td>
                         <td><a href="#" rel="tooltip" title="Check this customer in!" data-placement="top" class="check-in"><button type="button" class="btn btn-mini">Check In</button></a></td>
                       </tr>
                       <tr>
@@ -71,6 +73,7 @@
                         <td>Jacob</td>
                         <td>Thornton</td>
                         <td>Student: $15</td>
+                        <td>#54637</td>
                         <td><button type="button" class="btn btn-mini btn-success disabled">Checked In</button></td>
                       </tr>
                     </tbody>
@@ -103,6 +106,7 @@
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Booking Type</th>
+                        <th>Booking #</th>
                         <th></th>
                       </tr>
                     </thead>
@@ -112,6 +116,7 @@
                         <td>Mark</td>
                         <td>Otto</td>
                         <td>Student: $15</td>
+                        <td>#54637</td>
                         <td><a href="#" rel="tooltip" title="Check this customer in!" data-placement="top" class="check-in"><button type="button" class="btn btn-mini">Check In</button></a></td>
                       </tr>
                       <tr>
@@ -119,6 +124,7 @@
                         <td>Jacob</td>
                         <td>Thornton</td>
                         <td>Student: $15</td>
+                        <td>#54637</td>
                         <td><button type="button" class="btn btn-mini btn-success disabled">Checked In</button></td>
                       </tr>
                     </tbody>

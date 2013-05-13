@@ -22,7 +22,7 @@
                   <input class="input-large" type="text" id="#">
                 </div>
               </div>
-              <table class="table table-bordered">
+              <table class="table table-bordered" id="holiday-table">
                 <thead>
                   <tr>
                     <th>Class Name</th>
@@ -86,6 +86,7 @@
               </div>
             </form>
 
+            <!-- Radio buttons should all be set to 'No' by default -->
 
           </div>
             <p class="page-heading" style="border-top: 1px solid #ddd;">Saved Holidays</p>
