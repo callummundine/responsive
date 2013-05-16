@@ -25,6 +25,14 @@
                 <option>Hatha Yoga</option>
                 <option>Outdoor Yoga</option>
               </select>
+              <br><br>
+
+              <p class="mb-05em">Difficulty</p>
+              <select>
+                <option>Beginners</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+              </select>
               <br>
               <hr>
               <p class="mb-05em">Course Title</p>
@@ -72,6 +80,8 @@
                 </table>
                 <hr>
 
+                <p class="mb-1em">Customers must enroll for the duration of the course.</p>
+
                 <div class="schedule-cycle">
                   <p id="schedule-cycle-title">Course Cycle 1<button type="button" class="btn pull-right"><i class="icon-remove"></i></button></p>
                   <div id="repeating-weekly"> <!-- Should be shown when 'Repeating Weekly' radio button is selected -->
@@ -103,10 +113,7 @@
                     <span class="help-inline mr-05em f-08em">End Time</span><input type="time" placeholder="" class="span3">
                     <br><br>
                     <span class="help-inline mr-05em f-08em">Start Date</span><input type="date" placeholder="" class="span3">
-                    <span class="help-inline mr-05em f-08em">Number Of Weeks</span><input type="number" placeholder="" class="span2">
-                    <label class="checkbox inline">
-                      <input type="checkbox" id="inlineCheckbox3" value="option3"> Ongoing Cycle
-                    </label>
+                    <span class="help-inline mr-05em f-08em">Number Of Weeks</span><input type="number" placeholder="" class="span2"><span class="help-inline f-08em">Ends 25/12/2013</span>
                   </div>
                   <br>
 
@@ -142,13 +149,9 @@
             </form>
           </div>
         </div>
-      
       </div>
-
     </div>
-
   </div>
-
 
     <?php include('footer.php'); ?>
 

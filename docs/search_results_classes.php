@@ -1,8 +1,13 @@
   <?php include('header.php'); ?>
   <div class="container">
+
+    <?php include('search_box.php'); ?>
+    
     <div id="big-map" class="wrapper">
       <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/?ie=UTF8&amp;ll=-36.605471,145.469483&amp;spn=5.237815,11.623535&amp;t=m&amp;z=7&amp;output=embed"></iframe>
     </div>
+
+    <?php include('search_results_summary.php') ?>
 
     <div class="row-fluid">
 
@@ -28,7 +33,7 @@
             <li>
               <table id="class-table">
                 <th class="w-50">
-                  <a href="#" id="class-name">Bikram Yoga</a>
+                  <a href="studio_classpage.php" id="class-name">Bikram Yoga</a>
                   <p class="bold">Geelong Yoga Center</p>
                   <p class="normal"><i class="icon-map-marker"></i> 125 High St, Geelong</p>
                 </th>

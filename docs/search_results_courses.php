@@ -1,8 +1,14 @@
   <?php include('header.php'); ?>
   <div class="container">
+
+    <?php include('search_box.php'); ?>
+    
     <div id="big-map" class="wrapper">
       <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/?ie=UTF8&amp;ll=-36.605471,145.469483&amp;spn=5.237815,11.623535&amp;t=m&amp;z=7&amp;output=embed"></iframe>
     </div>
+
+
+    <?php include('search_results_summary.php') ?>
 
     <div class="row-fluid">
 
@@ -25,7 +31,7 @@
       <div class="wrapper no-margin">
         <ul id="search-results-courses">
           <li>
-            <p id="class-name"><a href="#">Beginners Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button></p>
+            <p id="class-name"><a href="studio_coursepage.php">Beginners Yoga</a><button type="button" class="btn ml-1em pull-right" id="book-now-button"></i> Book Now!</button></p>
             <p class="bold">Geelong Yoga Center</p>
             <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
             <p>Wednesday's, Friday's: 5:30PM - 6:30PM</p>

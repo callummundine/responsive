@@ -10,7 +10,7 @@
 
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> -->
     <link href="assets/css/docs.css" rel="stylesheet">
     <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
@@ -57,49 +57,10 @@
         <div class="container height-100" id="header-top">
           <img src="assets/img/logo.png" id="header-logo" class="pull-left">
           <div class="pull-right" id="top-buttons">
-            <div class="btn-group">
-              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                My Account
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>Callum</li>
+            <ul>
                 <li>Logout</li>
               </ul>
-            </div>
-            <button type="button" class="btn btn-primary" id="add-studio-button">Add A Studio</button>
           </div>
         </div>
-      </div>
-      <div id="blue-nav">
-        <div class="container" style="margin-bottom:0px;">
-          <ul class="inline-ul" id="header-menu">         
-            <li class="menu-li"><a href="index.php">Home</a></li>
-            <li class="menu-li"><a href="#location-input" data-toggle="modal">Stretch</a></li> <!-- This will link to search results with studios that do Stretch (yoga) -->
-            <li class="menu-li"><a href="#">Dance</a></li>  <!-- This will link to search results with studios that do Dance -->
-            <li class="menu-li"><a href="#">Train</a></li>  <!-- This will link to search results with studios that do Train (personal training) -->
-            <li class="menu-li"><a href="#">Blog</a></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li class="search-li">
-              <input type="search" placeholder="Search Klassable..." id="site-search"><button type="submit" class="btn" id="search-button">Search</button><i class="icon-align-justify icon-15x pull-right icon-white" id="blue-drop-button"></i>
-            </li>   
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div id="location-input" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="myModalLabel" class="align-center">Stretch (Yoga And Pilates)</h3>
-      </div>
-      <div class="modal-body align-center">
-        <p class="mb-1em f-12em">Where do you want to stretch?</p>
-        <input class="w-50 mb-1em" type="text" placeholder="Suburb or Postcode"><br>
-         <a href="search_results_studios.php"><button class="btn btn-primary w-50" >Search!</button></a>
-      </div>
+      </div>  
     </div>

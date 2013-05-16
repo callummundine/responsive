@@ -8,7 +8,7 @@
             Suburbs<i class="icon-plus pull-right side-bar-icon"></i>
           </p>
         </div>
-        <div id="collapseOne" class="accordion-body collapse">
+        <div id="collapseOne" class="accordion-body collapse in">
           <div class="accordion-inner">
             <ul class="side-list-ul">
               <li><input type="checkbox" class="no-margin"> Select All</li>

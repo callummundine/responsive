@@ -46,8 +46,8 @@
                   <td class="w-10">$15</td>
                   <td class="schedule-button align-right w-25">
                     <a href="#" rel="tooltip" title="Follow Studio" data-placement="top" class="follow-studio"><button type="button" class="btn"><i class="icon-heart-empty"></i></button></a>
-                    <a href="#" rel="tooltip" title="Add To Schedule" data-placement="top" class="bookmark-class"><button type="button" class="btn"><i class="icon-calendar"></i></button></a>
-                    <button type="button" class="btn">Book</button>
+                    <a href="#" rel="tooltip" title="Add To Schedule" data-placement="top" class="add-to-schedule"><button type="button" class="btn"><i class="icon-calendar"></i></button></a>
+                    <a href="checkout_1.php"><button type="button" class="btn">Book</button></a>
                   </td>
                 </tr>
               </tbody>
@@ -59,7 +59,7 @@
   <script type="text/javascript">
     $(document).ready(function () {
       $('.follow-studio').tooltip();
-      $('.bookmark-class').tooltip();
+      $('.add-to-schedule').tooltip();
     });
   </script>
 

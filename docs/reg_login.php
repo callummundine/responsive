@@ -1,3 +1,4 @@
+<?php include('core/init.php'); ?>	
   <?php include('header.php'); ?>
   <div class="container">
     <div class="row-fluid">

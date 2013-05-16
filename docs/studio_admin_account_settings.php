@@ -30,7 +30,7 @@
               <br>
               <input type="text" class="mb-1em span12" id="" placeholder="Address">
               <br>
-              <textarea rows="6" class="span12" placeholder="Write about your studio a.k.a 'About Us'"></textarea>
+              <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/?ie=UTF8&amp;ll=-36.605471,145.469483&amp;spn=5.290706,11.546631&amp;t=m&amp;z=7&amp;output=embed"></iframe>
               <hr>
               <p class="acccount-s-head">Photos</p>  
               <p>Cover Photo</p>
@@ -101,6 +101,9 @@
               <input type="text" class="span4 mb-1em" placeholder="Account Name"><br>
               <input type="text" class="span4 mb-1em" placeholder="Account Number"><br>
               <input type="text" class="span4" placeholder="BSB Number"><br>
+              <hr>
+              <p class="acccount-s-head">Mind Body Online API Key</p>
+              <input type="text" class="span4 mr-1em" placeholder="Mind Body Online API Key"><button type="button" class="btn mr-1em"><i class="icon-refresh"></i> Connect My Account</button><br>
               <hr>
               <button type="button" class="btn btn-primary">Save</button><button type="button" class="btn ml-1em">Cancel</button>
             </form>

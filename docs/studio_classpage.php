@@ -38,7 +38,7 @@
       <p class="bold">Location</p>
       <p>Geelong Yoga Center</p>
       <p class="mb-1em">10 High Street, Geelong, 3215</p>
-      <button type="button" class="btn btn-primary mb-1em" id="show-map">Show Map</button>
+      <button type="button" class="btn mb-1em" id="show-map">Show Map</button>
       <div id="class-map"></div>
       <p class="bold">About This Class</p>
       <p class="mb-1em">Weekly classes are now open for anyone wanting simple yet very effective Chi Kung exercises. Chi Kung is a fundamental aspect of traditional Chinese medicine and can help you manage and improve your overall wellbeing. Its practice leaves you feeling uplifted and positive in your approach to everything you do. You will achieve a healthy mind, a calm spirit and a stronger immune system by its regular practice. (1 hour class)</p>
@@ -48,6 +48,102 @@
       <p class="bold mt-1em">Level</p>
       <p>Beginner</p>
     </div>
+    <p class="page-heading" style="border-top:1px solid #ddd;">Reviews</p>
+    <ul id="review-ul">
+      <li>
+        <p id="class-name">Bikram Yoga</p>
+        <p class="mb-1em">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span class="rating">
+          <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        </span>
+
+        <div class="inline-block w-100">
+          <span class="span3 pull-left">
+            <p>Class Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+
+          <span class="span3 pull-left">
+            <p>Instructor Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+
+          <span class="span3 pull-left">
+            <p>Facilities Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+
+          <span class="span3 pull-left">
+            <p>Overall Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+        </div>
+        <p>Reviewed By: Callum Mundine on 25th Jan 2013</p>
+      </li>
+
+            <li>
+        <p id="class-name">Bikram Yoga</p>
+        <p class="mb-1em">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <span class="rating">
+          <span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span>
+        </span>
+
+        <div class="inline-block w-100">
+          <span class="span3 pull-left">
+            <p>Class Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+
+          <span class="span3 pull-left">
+            <p>Instructor Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+
+          <span class="span3 pull-left">
+            <p>Facilities Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+
+          <span class="span3 pull-left">
+            <p>Overall Rating</p>
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+            <input type="radio" class="inline" value="option1">
+          </span>
+        </div>
+        <p>Reviewed By: Anonymous on 25th Jan 2013</p>
+      </li>
+    </ul>
   </div>
 </div>
 

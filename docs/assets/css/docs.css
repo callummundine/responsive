@@ -302,7 +302,6 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   text-align: center;
   padding: 30px 0;
   background-color: #28b7ed;
-  margin-top: 10px;
 }
 .footer p {
   margin-bottom: 0;

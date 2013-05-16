@@ -9,7 +9,7 @@
         <div class="wrapper">
               <p class="main-heading">Teachers</p>          
           <div>
-            <div style="padding: 5px; border-bottom:1px solid #ddd;">
+            <div class="add-new-div">
               <button href="#myModal" role="button" type="button" class="btn btn-primary" data-toggle="modal"><i class="icon-plus"></i> Add New Teacher</button>
             </div>
               <ul>

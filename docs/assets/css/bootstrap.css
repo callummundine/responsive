@@ -228,6 +228,7 @@ body {
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
+
 }
 
 a {
@@ -408,7 +409,8 @@ a:focus {
   float: left;
   width: 100%;
   min-height: 30px;
-  margin-left: 2.127659574468085%;
+  margin-left: .62766%; 
+  /*margin-left: 2.127659574468085%;*/
   *margin-left: 2.074468085106383%;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -439,7 +441,8 @@ a:focus {
 }
 
 .row-fluid .span9 {
-  width: 74.46808510638297%;
+  width: 75.9680805%;
+  /*width: 74.46808510638297%;*/
   *width: 74.41489361702126%;
 }
 
@@ -617,6 +620,7 @@ a:focus {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
+  margin-bottom: 1em;
 }
 
 .container:before,
@@ -1751,25 +1755,25 @@ select:focus:invalid:focus {
 
 .input-prepend .add-on:first-child,
 .input-prepend .btn:first-child {
-  -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 0px 0 0 0px;
+     -moz-border-radius: 0px 0 0 0px;
+          border-radius: 0px 0 0 0px;
 }
 
 .input-append input,
 .input-append select,
 .input-append .uneditable-input {
-  -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  -webkit-border-radius: 0px 0 0 0px;
+     -moz-border-radius: 0px 0 0 0px;
+          border-radius: 0px 0 0 0px;
 }
 
 .input-append input + .btn-group .btn:last-child,
 .input-append select + .btn-group .btn:last-child,
 .input-append .uneditable-input + .btn-group .btn:last-child {
-  -webkit-border-radius: 0 4px 4px 0;
-     -moz-border-radius: 0 4px 4px 0;
-          border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0 0px 0px 0;
+     -moz-border-radius: 0 0px 0px 0;
+          border-radius: 0 0px 0px 0;
 }
 
 .input-append .add-on,

@@ -9,23 +9,22 @@
         <div class="wrapper">
               <p class="main-heading">Locations</p>          
           <div>
-            <div style="padding: 5px; border-bottom:1px solid #ddd;">
+            <div class="add-new-div">
               
               <button href="#myModal" role="button" type="button" class="btn btn-primary" data-toggle="modal"><i class="icon-plus"></i> Add New Location</button>
             </div>
               <ul id="locations-ul">
                 <li>
-                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button></p>
+                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button><button type="button" href="#deleteFail" role="button" data-toggle="modal" class="btn btn-danger pull-right mr-1em">Delete</button></p>
                     <p>125 High St, Geelong, 3215</p>
                     <p>Phone: 52289281</p>
                 </li>
                 <li>
-                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button></p>
+                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button><button type="button" class="btn btn-danger pull-right mr-1em">Delete</button></p>
                     <p>125 High St, Geelong, 3215</p>
                     <p>Phone: 52289281</p>
                 </li>
-
-            </ul>
+              </ul>
           </div>
         </div>
       
@@ -76,6 +75,21 @@
     <button class="btn btn-primary">Save changes</button>
   </div>
 </div>
+
+<!-- Teacher Modal -->
+<div id="deleteFail" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Delete Teacher</h3>
+  </div>
+  <div class="modal-body">
+    <p>You cannot delete this location becuase you have classes and courses assigned to it. Please change them and retry deleting this location.</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+<!-- End of modal -->
 
     <?php include('footer.php'); ?>
 

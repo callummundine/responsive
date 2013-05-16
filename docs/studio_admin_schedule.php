@@ -87,7 +87,8 @@
             </table>
           </div>
         </div>
-
+        <br>
+        
         <div class="wrapper">
           <p class="main-heading">Courses</p>
           <ul id="courses-ul">
@@ -139,6 +140,7 @@
             </li>
           </ul>
         </div>
+        <br>
 
         <div class="wrapper">
           <p class="main-heading">Templates</p>
@@ -147,32 +149,35 @@
             <li>
               <p id="class-name" class="mb-1em">Bikram Yoga</p>
               <button type="button" class="btn btn-success disabled">Published</button>
-              <button type="button" class="btn black"><i class="icon-retweet"></i> 5 Weekly Cycles Scheduled</button>
-              <button type="button" class="btn black"><i class="icon-plus"></i> Add New Cycle</button>
+              <button type="button" class="btn black disabled"><i class="icon-retweet"></i> 5 Weekly Cycles Scheduled</button>
+              <button type="button" class="btn black pull-right"><i class="icon-plus"></i> Add New Cycle</button>
               
             </li>
             <li>
               <p id="class-name" class="mb-1em">Bikram Yoga</p>
-              <button type="button" class="btn btn-warning disabled">Unpublished</button>
-              <button type="button" class="btn black"><i class="icon-retweet"></i> 5 Weekly Cycles Scheduled</button>
-              <button type="button" class="btn black"><i class="icon-plus"></i> Add New Cycle</button>
+              <button type="button" class="btn btn-warning disabled">Draft</button>
+              <button type="button" class="btn btn-success">Publish</button>
+              <button type="button" class="btn black disabled"><i class="icon-retweet"></i> 5 Weekly Cycles Unpublished</button>
+              <button type="button" class="btn black pull-right"><i class="icon-plus"></i> Add New Cycle</button>
             </li>
           </ul>
           <!-- end of weekly templates -->
 
           <ul class="templates">
-            <p class="template-sub-heading">Courses</p>
+            <p class="template-sub-heading" style="border-top:1px solid #ddd;">Courses</p>
             <li>
-              <p id="class-name" class="mb-1em">Bikram Yoga</p>
+              <p id="class-name" class="mb-1em">Beginners Yoga</p>
               <button type="button" class="btn btn-success disabled">Published</button>
-              <button type="button" class="btn black"><i class="icon-retweet"></i> 5 Courses Scheduled</button>
-              <button type="button" class="btn black"><i class="icon-plus"></i> Add Another Course Occurance</button>
+              <button type="button" class="btn black disabled"><i class="icon-retweet"></i> 5 Courses Scheduled</button>
+              <button type="button" class="btn black pull-right"><i class="icon-plus"></i> Add Another Course Occurance</button>
             </li>
             <li>
-              <p id="class-name" class="mb-1em">Bikram Yoga</p>
-              <button type="button" class="btn btn-warning disabled">Unpublished</button>
-              <button type="button" class="btn black"><i class="icon-retweet"></i> 5 Courses Scheduled</button>
-              <button type="button" class="btn black"><i class="icon-plus"></i> Add Another Course Occurance</button>
+              <p id="class-name" class="mb-1em">Beginners Yoga</p>
+              <button type="button" class="btn btn-warning disabled">Draft</button>
+              <button type="button" class="btn btn-success">Publish</button>
+              <button type="button" class="btn black disabled"><i class="icon-retweet"></i> 5 Courses Unpublished</button>
+              <button type="button" class="btn black pull-right"><i class="icon-plus"></i> Add Another Course Occurance</button>
+
             </li>
           </ul>
           <!-- end of courses templates -->

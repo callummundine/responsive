@@ -621,7 +621,7 @@ height: 250px;
 background: white;
 margin: 0 auto;
 padding: 1%;
-margin-top:1em;
+margin-top:0.2em;
 }
 
 #search-results-studios{
@@ -815,7 +815,7 @@ border: 1px solid #ddd;
 }
 
 .span3{
-	margin-bottom: 0.3em !important;
+	margin-bottom: 0px !important;
 }
 
 #studio-photo{
@@ -957,10 +957,9 @@ text-align: center;
 
 .template-sub-heading{
 	text-align: center;
-	background: #5bc0de;
-	color: white;
 	padding: 0.5em;
 	font-size: 1.1em;
+	border-bottom: 1px solid #ddd;
 }
 
 #courses-ul{
@@ -1090,4 +1089,202 @@ text-align: center;
 
 #holiday-table tbody tr td{
 	padding: 5px;
+}
+
+#review-ul{
+
+}
+
+#review-ul li{
+	padding: 1em;
+	border-bottom: 1px dashed #ddd;	
+}
+
+#review-ul li:first-child{
+
+}
+
+#review-ul li:last-child{
+	border-bottom: none;
+}
+
+.border-top {
+	border-top: 1px solid #ddd;
+}
+
+#checkout-ol{
+	margin-left: 1em;
+}
+
+#checkout-ol li{
+	font-size: 0.8em;
+	border: 1px dashed #ddd;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+#search-button{
+	position: relative;
+left: -67px;
+border-radius: 15px;
+border: none;
+background: #28b7ed;
+color: white;
+text-shadow: none;
+padding: 3px 11px;
+top: -1px;
+}
+
+.f-12em{
+	font-size: 1.2em;
+}
+
+.container-full{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.super-table{
+	font-size: 0.8em;
+}
+
+.super-search-div{
+	padding: 1em;
+	border-bottom: 1px solid #ddd;
+}
+.f-1em{
+	font-size: 1em;
+}
+
+.p-1em{
+	padding: 1em;
+}
+
+.top-links{
+	font-size: 1em;	
+}
+
+#news-super{
+	font-size: 1.2em;
+	margin-bottom: 1em;
+	text-decoration: underline;
+}
+
+.super-span{
+	padding: 5%;
+	margin-left: 0px !important;
+}
+
+.add-new-div{
+	padding: 5px; border-bottom:1px solid #ddd; text-align:right;
+}
+
+.green{
+	color: green;
+}
+
+.link-1{
+	font-size: 1em;
+}
+
+.help-headings{
+	font-size: 1.1em;
+	margin-bottom: 0.5em;
+}
+
+.help-content{
+	margin-bottom: 2em;
+}
+
+#help-ul li{
+	padding: 1em;
+	border-bottom: 1px dashed #ddd;
+}
+
+#help-ul li:last-child{
+	border-bottom: none;
+}
+
+.w-10{
+	width: 10% !important;
+}
+
+.w-289{
+	width: 28.9%;
+}
+
+#top-search-button{
+	width: 33%;
+background: #28b7ed;
+border: none;
+color: white;
+text-shadow: none;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+padding: 7px;
+font-size: 16px;
+font-weight: lighter;
+}
+
+
+#top-search-what{
+	padding: 6px;
+	width: 233px;
+}
+
+#top-search-where{
+	padding: 6px;
+	width: 226px;
+}
+
+#top-search-addon{
+	padding: 6px;
+}
+
+.w-33{
+	width: 33%;
+}
+
+/*#home-banner-image{
+	background-image: url('/home-image.png');
+	height: 350px;
+}*/
+
+.home-search-wrapper{
+	padding: 1%;
+margin-top: 1em;
+border: none;
+background: rgba(0, 0, 0, 0.38);
+margin: 30px 0px 150px 0px;
+}
+
+
+#top-search-what-home{
+	padding: 7px;
+	border: none;
+	width: 233px;
+}
+
+#top-search-where-home{
+	padding: 7px;
+	border: none;
+	width: 226px;
+}
+
+#top-search-addon-home{
+	padding: 7px;
+	border: none;
+}
+
+#home-message{
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow:0 0 15px rgba(0,0,0,0.6),0 -1px 1px rgba(0,0,0,0.6);
+	margin-top: 97px;
+}
+
+#in-melbourne{
+	font-size: 0.7em;
 }
