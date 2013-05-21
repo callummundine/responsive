@@ -2,7 +2,7 @@
    	<form class="form-inline">
    	<div class="input-prepend w-33">
       <span class="add-on" id="top-search-addon">What</span>
-      <input id="top-search-what" type="text">
+      <input id="top-search-what" type="text" placeholder="Stretch, Dance or Train">
     </div>
     <div class="input-prepend w-33">
       <span class="add-on" id="top-search-addon">Where</span>

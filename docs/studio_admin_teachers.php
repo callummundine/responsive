@@ -10,7 +10,7 @@
               <p class="main-heading">Teachers</p>          
           <div>
             <div class="add-new-div">
-              <button href="#myModal" role="button" type="button" class="btn btn-primary" data-toggle="modal"><i class="icon-plus"></i> Add New Teacher</button>
+              <button href="#myModal" role="button" type="button" class="btn btn-primary k-button" data-toggle="modal"><i class="icon-plus"></i> Add New Teacher</button>
             </div>
               <ul>
                 <li class="teacher-profile">

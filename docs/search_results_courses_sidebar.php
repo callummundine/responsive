@@ -8,7 +8,7 @@
             Suburbs<i class="icon-plus pull-right side-bar-icon"></i>
           </p>
         </div>
-        <div id="collapseOne" class="accordion-body collapse">
+        <div id="collapseOne" class="accordion-body collapse in">
           <div class="accordion-inner">
             <ul class="side-list-ul">
               <li><input type="checkbox" class="no-margin"> Select All</li>
@@ -27,6 +27,7 @@
                 <li><input type="checkbox" class="no-margin"> West Melbourne</li>
               </div>
               <li><a id="show-more-suburb">Show More</a></li>
+              <button type="submit" class="btn k-button btn-mini">Update Results</button>
             </ul>
           </div>
         </div>
@@ -36,7 +37,7 @@
             Class Types<i class="icon-plus pull-right side-bar-icon"></i>
           </p>
         </div>
-        <div id="collapseTwo" class="accordion-body collapse">
+        <div id="collapseTwo" class="accordion-body collapse in">
           <div class="accordion-inner">
             <ul class="side-list-ul">
               <li><input type="checkbox" class="no-margin"> Select All</li>
@@ -45,6 +46,7 @@
               <li><input type="checkbox" class="no-margin"> Pregnant Yoga</li>
               <li><input type="checkbox" class="no-margin"> Outdoor Yoga</li>
               <li><a href="#">Show More</a></li>
+              <button type="submit" class="btn k-button btn-mini">Update Results</button>
             </ul>
           </div>
         </div>
@@ -54,7 +56,7 @@
             Price<i class="icon-plus pull-right side-bar-icon"></i>
           </p>
         </div>
-        <div id="collapseThree" class="accordion-body collapse">
+        <div id="collapseThree" class="accordion-body collapse in">
           <div class="accordion-inner">
             <p>jQuery Slider</p>
 

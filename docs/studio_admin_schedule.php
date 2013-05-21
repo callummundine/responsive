@@ -37,7 +37,6 @@
                 </tr>
               </thead>
               <tbody>
-
                 <tr>
                   <td class="w-25"><a href="#" class="c-blue">Bikram Yoga</a></td>
                   <td class="w-25">Geelong Yoga Studio</td>
@@ -45,8 +44,19 @@
                   <td class="w-10">$15</td>
                   <td class="schedule-button align-right w-25">
                     <a href="#" rel="tooltip" title="5 Bookings" data-placement="top" class="number-bookings"><button type="button" class="btn" id="bookings-num-button"><i class="icon-user"></i> 5</button></a>
+                    <a href="#" rel="tooltip" title="10 Places Left" data-placement="top" class="places-left"><button type="button" class="btn ml-05em disabled" id="bookings-num-button"><i class="icon-group"></i> 10</button></a>
+                    <div class="btn-group">
+                      <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="icon-cog"></i>
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><i class="icon-plus"></i> Add Attendee</li>
+                      </ul>
+                    </div>
                   </td>
                 </tr>
+
                 <td colspan="5" id="class-attendees-td">
                   <table class="table">
                     <thead>
@@ -76,12 +86,37 @@
                         <td>#54637</td>
                         <td><button type="button" class="btn btn-mini btn-success disabled">Checked In</button></td>
                       </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>Student: $15</td>
+                        <td>Manual</td>
+                        <td><a href="#" rel="tooltip" title="Remove Attendee" data-placement="top" class="add-attendee"><button type="button" class="btn btn-mini"><i class="icon-remove"></i></button></a></td>
+                      </tr>
                     </tbody>
                   </table>
                 </td>
                 
-
-
+                <tr>
+                  <td class="w-25"><a href="#" class="c-blue">Bikram Yoga</a></td>
+                  <td class="w-25">Geelong Yoga Studio</td>
+                  <td class="w-15">7:30PM</td>
+                  <td class="w-10">$15</td>
+                  <td class="schedule-button align-right w-25">
+                    <a href="#" rel="tooltip" title="10 Places Left" data-placement="top" class="places-left"><button type="button" class="btn ml-05em disabled" id="bookings-num-button"><i class="icon-group"></i> 10</button></a>
+                    <div class="btn-group">
+                      <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="icon-cog"></i>
+                        <span class="caret"></span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <a href="#addAttendee" data-toggle="modal"><li><i class="icon-plus"></i> Add Attendee</li></a>
+                        <a href="#deleteClass" data-toggle="modal"><li><i class="icon-remove"></i> Delete Class <i class="icon-question-sign" href="#" id="delete-class-q" rel="tooltip" title="Only deletes this time and date" data-placement="bottom"></i></li></a>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
 
               </tbody>
             </table>
@@ -128,6 +163,7 @@
                         <td>#54637</td>
                         <td><button type="button" class="btn btn-mini btn-success disabled">Checked In</button></td>
                       </tr>
+
                     </tbody>
                   </table>
                 </div>
@@ -199,6 +235,11 @@
       $('.number-bookings').tooltip();
       $('.edit-cog').tooltip();
       $('.check-in').tooltip();
+      $('.add-attendee').tooltip();
+      $('.places-left').tooltip();
+      $('#delete-class-q').tooltip();
+
+      
     });
   </script>
 
@@ -214,3 +255,41 @@
     $("#courses-bookings-table-div").toggle();
     });
   </script>
+
+<!-- Modal Add Attendee -->
+<div id="addAttendee" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Add Attendee</h3>
+  </div>
+  <div class="modal-body">
+    <input type="text" class="span4 required" placeholder="First Name">
+    <input type="text" class="span4 required" placeholder="Surname">
+    <br>
+    <select>
+      <option>Standard: $18</option>
+      <option>Student: $15</option>
+      <option>Senior: $15</option>
+      <option>Child: $10</option>
+    </select>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Add Attendee</button>
+  </div>
+</div>
+
+<!-- Modal Delete Class Confirm-->
+<div id="deleteClass" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Delete Class</h3>
+  </div>
+  <div class="modal-body">
+    <p>Are you sure you want to delete this class on the selected time and date (this can not be undone).</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Confirm</button>
+  </div>
+</div>

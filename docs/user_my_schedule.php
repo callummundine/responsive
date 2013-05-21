@@ -31,31 +31,32 @@
             <table class="table">
               <thead>
                 <tr>
-                  <th>Class</th>
-                  <th>Studio</th>
-                  <th>Time</th>
-                  <th>Price</th>
+                  <th class="w-25">Class</th>
+                  <th class="w-25">Studio</th>
+                  <th class="w-10">Time</th>
+                  <th class="w-7">Price</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td class="w-25">Bikram Yoga</td>
-                  <td class="w-25">Geelong Yoga Studio</td>
-                  <td class="w-15">7:30PM</td>
-                  <td class="w-10">$15</td>
+                  <td>Bikram Yoga</td>
+                  <td>Geelong Yoga Studio</td>
+                  <td>7:30PM</td>
+                  <td>$15</td>
                   <td class="schedule-button align-right w-25">
-                    <a href="#" rel="tooltip" title="Unollow Studio" data-placement="top" class="unfollow-studio"><button type="button" class="btn"><i class="icon-heart-empty"></i></button></a>
+                    <a href="#" rel="tooltip" title="Share This Class" data-placement="top" class="share-class"><button type="button" class="btn"><i class="icon-share"></i></button></a>                    
                     <a href="#" rel="tooltip" title="Remove From Schedule" data-placement="top" class="remove-schedule"><button type="button" class="btn"><i class="icon-calendar"></i></button></a>
                     <button type="button" class="btn">Book</button>
                   </td>
                 </tr>
 
                 <tr>
-                  <td class="w-25">Bikram Yoga</td>
-                  <td class="w-25">Geelong Yoga Studio</td>
-                  <td class="w-15">7:30PM</td>
-                  <td class="w-10">$15</td>
+                  <td>Bikram Yoga</td>
+                  <td>Geelong Yoga Studio</td>
+                  <td>7:30PM</td>
+                  <td>$15</td>
                   <td class="schedule-button align-right w-25">
+                    <a href="#" rel="tooltip" title="Share This Class" data-placement="top" class="share-class"><button type="button" class="btn"><i class="icon-share"></i></button></a>                    
                     <a href="#" rel="tooltip" title="Download Pass" data-placement="top" class="download-pass"><button type="button" class="btn"><i class="icon-arrow-down"></i></button></a>
                     <button type="button" class="btn btn-success disabled">Booked</button>
                   </td>
@@ -70,6 +71,7 @@
               $('.unfollow-studio').tooltip();
               $('.remove-schedule').tooltip();
               $('.download-pass').tooltip();
+              $('.share-class').tooltip();
             });
           </script>
 

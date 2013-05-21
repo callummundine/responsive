@@ -45,8 +45,18 @@
               <p class="mb-05em">Description</p>          
               <textarea rows="7" class="input-xxlarge mb-1em" placeholder="Write about your Class..."></textarea>
               <hr>
+              <p>Do you want to accept online bookings for this class?</p>
+              <label class="radio">
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Yes
+              </label>
+              <label class="radio">
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                No
+              </label>
+              <br>
               <span class="help-inline mr-05em f-08em">What is the maximum amount of bookings you want to accept through Klassable?</span><input type="number" placeholder="" class="span2">
-
+              <br><br>
               <label class="radio">
                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
                 Use my default pricing
@@ -86,8 +96,6 @@
                   </tbody>
                 </table>
                 <hr>
-
-                <p>Customers must enroll for the duration of the course.</p>
                 
                 <div class="schedule-cycle">
                   <p id="schedule-cycle-title">Weekly Cycle 1<button type="button" class="btn pull-right"><i class="icon-remove"></i></button></p>

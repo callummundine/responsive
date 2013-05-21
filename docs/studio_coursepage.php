@@ -25,7 +25,7 @@
       </select>
       <br>
     <div class="btn-group" id="btn-bsb">
-      <button class="btn btn-large btn-block btn-primary mb-05em">Book</button>      
+      <button class="btn btn-large btn-block k-button mb-05em">Book</button>      
       <button class="btn btn-large share-button" id="share" rel="tooltip" title="Share This Course" data-placement="top"><i class="icon-share"></i></button>
       <button class="btn btn-large review-this-class" id="share" rel="tooltip" title="Write A Review" data-placement="top"><i class="icon-pencil"></i></button>
     </div>

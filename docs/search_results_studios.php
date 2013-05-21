@@ -32,84 +32,11 @@
           <li>
             <div id="studios-image"></div>
             <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
+              <p id="studio-name"><a href="studio_timetable.php">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
               <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
             </div>
           </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-          <li>
-            <div id="studios-image"></div>
-            <div id="studios-content">
-              <p id="studio-name"><a href="#">Geelong Yoga Center</a><button type="button" class="btn pull-right"><i class="icon-heart icon-1x"></i> Follow</button></p>
-              <p><i class="icon-map-marker"></i> 125 High St, Geelong</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and <a href="#" class="link-1em">Read More...</a></p>
-            </div>
-          </li>
-            
         </ul>
         <p class="p-1em align-center"><a href="#" class="align-center">See More....</a></p>
       </div>

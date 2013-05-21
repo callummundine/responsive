@@ -39,7 +39,7 @@
                   <th>Email</th>
                   <th>Balance</th>
                   <th>Password</th>
-                  <th></th>
+                  <th>Mindbody</th>                  
                   <th></th>
                 </tr>
               </thead>
@@ -50,8 +50,9 @@
                   <td>callum@geelongyogacenter.com.au</td>
                   <td>$55.50</td>
                   <td>214hfus</td>                  
+                  <td><button type="submit" class="btn btn-mini disabled btn-primary">Mindbody</button></td>
                   <td><button type="submit" class="btn" href="#confirmPaid" role="button" data-toggle="modal">Mark As Paid</button></td>
-
+                  
                 </tr>
                 <tr>
                   <td><a href="#" class="link-1">Geelong Yoga Center</a></td> 
@@ -59,6 +60,7 @@
                   <td>callum@geelongyogacenter.com.au</td>
                   <td>$55.50</td>
                   <td>214hfus</td>                  
+                  <td></td>
                   <td><button type="submit" class="btn btn-success disabled">Paid</button></td>
                 </tr>
               </tbody>

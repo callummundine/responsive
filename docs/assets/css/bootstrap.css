@@ -289,7 +289,7 @@ a:focus {
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 960px;
 }
 
 .span12 {
@@ -6166,4 +6166,31 @@ a.badge:focus {
 
 .affix {
   position: fixed;
+}
+
+.p-05em{
+  padding: 0.5em;
+}
+
+#other-locations-drop{
+  width: 90%;
+  margin: 5%;
+}
+
+#other-locations-wrapper{
+  padding: 5%;
+}
+
+#opening-times-ul{
+  margin: 5%;
+}
+
+#opening-times-ul li{
+  font-size: 0.8em;
+}
+
+.side-heading {
+padding: 4%;
+text-align: center;
+border-bottom: 1px solid #ddd;
 }

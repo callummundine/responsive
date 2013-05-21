@@ -41,9 +41,9 @@ ul{
 
 #site-search{
 	margin: 0px;
-	border: none;
-	border-radius: 20px;
-	padding: 5px 15px;
+border: none;
+padding: 5px 70px 5px 5px;
+width: 165px;
 }
 
 .wrapper{
@@ -264,7 +264,7 @@ li.teacher-profile:last-child{
 }
 
 .align-center{
-	text-align: center;
+	text-align: center !important;
 }
 
 .font-1em{
@@ -433,7 +433,9 @@ li.teacher-profile:last-child{
 
 .schedule-button{
 	padding: 0px !important;
-	padding-top: 7px !important;
+padding-top: 7px !important;
+text-align: right !important;
+padding-right: 10px !important;
 }
 
 .align-right{
@@ -849,6 +851,7 @@ text-align: center;
 
 .dropdown-menu li:hover{
 	background: rgba(40, 183, 237, 0.18);
+	cursor: pointer;
 }
 
 .dropdown-menu{
@@ -1126,7 +1129,6 @@ text-align: center;
 #search-button{
 	position: relative;
 left: -67px;
-border-radius: 15px;
 border: none;
 background: #28b7ed;
 color: white;
@@ -1255,26 +1257,26 @@ font-weight: lighter;
 	padding: 1%;
 margin-top: 1em;
 border: none;
-background: rgba(0, 0, 0, 0.38);
-margin: 30px 0px 150px 0px;
+background: white;
+margin: 56px 0px 150px 0px;
 }
 
 
 #top-search-what-home{
 	padding: 7px;
-	border: none;
-	width: 233px;
+	border: 1px solid #ccc;
+	width: 230px;
 }
 
 #top-search-where-home{
 	padding: 7px;
-	border: none;
-	width: 226px;
+	border: 1px solid #ccc;
+	width: 222px;
 }
 
 #top-search-addon-home{
 	padding: 7px;
-	border: none;
+	border: 1px solid #ccc;
 }
 
 #home-message{
@@ -1282,9 +1284,50 @@ margin: 30px 0px 150px 0px;
 	font-size: 2em;
 	font-weight: bold;
 	text-shadow:0 0 15px rgba(0,0,0,0.6),0 -1px 1px rgba(0,0,0,0.6);
-	margin-top: 97px;
+	margin-top: 67px;
 }
 
 #in-melbourne{
 	font-size: 0.7em;
+}
+
+.w-7{
+	width: 7%;
+}
+
+.ml-05em{
+	margin-left: 0.5em;
+}
+
+#index-information{
+	background: #eee;
+	padding: 50px;
+}
+
+#index-blue-2{
+	background: #28b7ed;
+	height: 50px;
+	width: 100%;
+	z-index: 999;
+	margin-top: -100px;
+	opacity: 0.9;
+}
+
+#index-how-does{
+		background: #28b7ed;
+color: white;
+text-align: center;
+padding: 13px;
+font-size: 19px;
+}
+
+.icon-5x{
+	font-size: 5em;
+}
+
+.k-button{
+	background: #28b7ed !important;
+	border: 1px solid #28b7ed !important;
+	text-shadow:none !important;
+	color: white !important;
 }

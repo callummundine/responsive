@@ -11,27 +11,24 @@
           <div>
             <div class="add-new-div">
               
-              <button href="#myModal" role="button" type="button" class="btn btn-primary" data-toggle="modal"><i class="icon-plus"></i> Add New Location</button>
+              <button href="#myModal" role="button" type="button" class="btn btn-primary k-button" data-toggle="modal"><i class="icon-plus"></i> Add New Location</button>
             </div>
               <ul id="locations-ul">
                 <li>
-                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button><button type="button" href="#deleteFail" role="button" data-toggle="modal" class="btn btn-danger pull-right mr-1em">Delete</button></p>
+                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button><button type="button" href="#deleteFail" role="button" data-toggle="modal" class="btn btn-danger pull-right mr-1em">Delete</button><button type="button" class="btn pull-right mr-1em k-button">Make Primary</button></p>
                     <p>125 High St, Geelong, 3215</p>
                     <p>Phone: 52289281</p>
                 </li>
                 <li>
-                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button><button type="button" class="btn btn-danger pull-right mr-1em">Delete</button></p>
+                    <p id="location-name">Geelong Yoga Center<button type="button" class="btn pull-right">Edit</button><button type="button" class="btn btn-danger pull-right mr-1em">Delete</button><button type="button" class="btn pull-right mr-1em disabled">Primary</button></p>
                     <p>125 High St, Geelong, 3215</p>
                     <p>Phone: 52289281</p>
                 </li>
               </ul>
           </div>
         </div>
-      
       </div>
-
     </div>
-
   </div>
 
 

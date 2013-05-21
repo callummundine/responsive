@@ -17,6 +17,7 @@
               <li><input type="checkbox" class="no-margin"> East Melbourne</li>
               <li><input type="checkbox" class="no-margin"> West Melbourne</li>
               <li><a href="#">Show More</a></li>
+              <button type="submit" class="btn k-button btn-mini">Update Results</button>
             </ul>
           </div>
         </div>
@@ -35,6 +36,7 @@
               <li><input type="checkbox" class="no-margin"> Pregnant Yoga</li>
               <li><input type="checkbox" class="no-margin"> Outdoor Yoga</li>
               <li><a href="#">Show More</a></li>
+              <button type="submit" class="btn k-button btn-mini">Update Results</button>
             </ul>
           </div>
         </div>

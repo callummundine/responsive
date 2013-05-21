@@ -18,7 +18,7 @@
     <link href="assets/css/todc-bootstrap.css" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -67,7 +67,7 @@
                 <li>Logout</li>
               </ul>
             </div>
-            <button type="button" class="btn btn-primary" id="add-studio-button">Add A Studio</button>
+            <button type="button" class="btn k-button">Add A Studio</button>
           </div>
         </div>
       </div>
@@ -79,11 +79,6 @@
             <li class="menu-li"><a href="#">Dance</a></li>  <!-- This will link to search results with studios that do Dance -->
             <li class="menu-li"><a href="#">Train</a></li>  <!-- This will link to search results with studios that do Train (personal training) -->
             <li class="menu-li"><a href="#">Blog</a></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
             <li class="search-li">
               <input type="search" placeholder="Search Klassable..." id="site-search"><button type="submit" class="btn" id="search-button">Search</button><i class="icon-align-justify icon-15x pull-right icon-white" id="blue-drop-button"></i>
             </li>   
@@ -100,6 +95,6 @@
       <div class="modal-body align-center">
         <p class="mb-1em f-12em">Where do you want to stretch?</p>
         <input class="w-50 mb-1em" type="text" placeholder="Suburb or Postcode"><br>
-         <a href="search_results_studios.php"><button class="btn btn-primary w-50" >Search!</button></a>
+         <a href="search_results_studios.php"><button class="btn k-button w-50" >Search!</button></a>
       </div>
     </div>
